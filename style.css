@@ -1,0 +1,47 @@
+
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: blueviolet;
+    padding: 30px; 
+    text-align: center;
+     font-size: 30px; 
+     color: burlywood;
+}
+p{
+    background-color: chocolate;
+    padding: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: darkblue;
+}
+nav{
+    float: left;
+    width: 30%;
+    height: 400px;
+    background-color: rgb(123, 123, 150);
+    padding: 20px;
+}
+nav ul{
+    list-style-type: none;
+}
+
+article ul{
+    list-style: lower-roman;
+}
+
+article{
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: white;
+    height: 400px;
+}
+footer{
+    background-color: rgb(187, 38, 38);
+    padding: 10px;
+    text-align: start;
+    color: teal;
+
+}
