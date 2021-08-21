@@ -2,33 +2,47 @@
 *{
     box-sizing: border-box;
 }
-header{
+h2{
     background-color: blueviolet;
-    padding: 30px; 
+    padding: 0px; 
     text-align: center;
      font-size: 30px; 
      color: burlywood;
+     margin: 1px;
 }
-p{
-    background-color: chocolate;
-    padding: 20px;
-    text-align: center;
-    font-size: 13px;
-    color: darkblue;
+hi{
+    padding: 2px;
+    margin: 2px;
+    float: left;
 }
+
 nav{
     float: left;
-    width: 30%;
-    height: 400px;
+    width: 100%;
+    height: 50px;
     background-color: rgb(123, 123, 150);
-    padding: 20px;
-}
+    padding: 3px; 
+} 
 nav ul{
     list-style-type: none;
+    overflow: auto;
 }
 
 article ul{
     list-style: lower-roman;
+}
+nav li{
+    float: left;
+    list-style: none;
+    padding: 3px;
+    margin: 2px;
+}
+   
+.im{
+    float: left;
+    height: 400px;
+    width: 30%;
+    
 }
 
 article{
@@ -36,12 +50,59 @@ article{
     padding: 20px;
     width: 70%;
     background-color: white;
-    height: 400px;
+    height: 385px;
+}
+
+.firstpara {
+    background-image: url("./images/marvin-meyer-SYTO3xs06fU-unsplash.jpg");
+    background-repeat: no-repeat;
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
+        font-size: 13px;
+        color: darkblue;
+        height: 60px;
+        width: 890px;
+        border: 2px solid;
+        border-color: blue;
+        /* background-position:center center; */
+}
+.secondpara{
+    background-image: url("./images/marvin-meyer-SYTO3xs06fU-unsplash.jpg");
+    background-repeat: no-repeat;
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
+        font-size: 13px;
+        color: darkblue;
+        height: 60px;
+        width: 890px;
+        border: 2px solid;
+        border-color: blue;
+        
+}
+.thrid{
+    padding: 1px;
+    margin: 5px;
+    border: red solid 2px;
+    height: 50px;
+    width: 890px;
+    font-size: 13px;
+    border-radius: 20px;
 }
 footer{
     background-color: rgb(187, 38, 38);
     padding: 10px;
-    text-align: start;
-    color: teal;
+    text-align: centers;
+    color: #cc5396;
 
+}
+#cities{
+    padding: 2px;
+    margin: 2px;
+}
+#tb{
+    background-color: darkblue;
+    padding: 0px;
+    margin: 2px;
 }
